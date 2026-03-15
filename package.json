@@ -1,0 +1,12 @@
+{
+  "name": "school-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "setup": "npm run install:all && echo '✅ All dependencies installed!'",
+    "start:backend": "cd backend && node server.js"
+  }
+}
