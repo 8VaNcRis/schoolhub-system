@@ -2,7 +2,7 @@ import { createContext, useContext, useState, useEffect } from 'react';
 import axios from 'axios';
 
 const AuthContext = createContext(null);
-const API = '/api';
+const API = 'https://schoolhub-backend-p4il.onrender.com/api';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
